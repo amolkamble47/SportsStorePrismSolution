@@ -1,0 +1,12 @@
+Install Prism.Unity for All Projects in the Solution
+	1. Get-Project -All | Install-Package Prism.Unity -Version 6.3.0
+
+SportsStorePrism.Module.Services
+	1. Install-Package EntityFramework
+
+SportsStorePrismWpf
+	1. Install-Package EntityFramework
+	Add References for all the Module and Infrastructure Project
+
+SportsStorePrism.Module.*
+	Add Reference of SportsStorePrism.Infrastructure to all Module Project
